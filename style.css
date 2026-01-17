@@ -1,0 +1,94 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  /* font-variation-settings:
+    "wdth" 100; */
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1600px; */
+    max-height: 92px;
+    border-top: 16px;
+    border-bottom: 16px;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+header img {
+    width: 139px;
+    height: 60px;
+    margin: 16px auto auto 120px;
+}
+header button{
+    margin-left: 120px;
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding:12px 16px;
+    margin-right: 120px;
+    /* border-color: #30B868; */
+    box-shadow:none;
+}
+/* main section .................................... */
+.structure{
+    max-width: 1600px;
+    max-height: 674px;
+    background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+}
+.structure{
+    /* margin: 0 auto; */
+    text-align: center;
+    padding:70px 120px 134px 120px;
+}
+.color-white{
+    color: #FFFFFF;
+}
+.color-green{
+    color: #30B868;
+}
+.background-color-white{
+    background-color: #ffffff;
+}
+.background-color-white{
+    background-color: #FFFFFF;
+}
+.background-color-green{
+    background-color: #30B868;
+}
+.second button{
+    border-radius: 5px;
+    max-width: 251px;
+    max-height: 52px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.border-radius {
+    border-radius: 100px;
+    max-width: 229px;
+    max-height: 35px;
+    padding: 8px 12px;
+    text-align: center;
+}
+.border-radius span{
+    max-width: 183px;
+    max-height: 19px;
+}
