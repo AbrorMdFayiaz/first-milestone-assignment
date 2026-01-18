@@ -5,12 +5,12 @@
   font-style: normal;
   /* font-variation-settings:
     "wdth" 100; */
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    display: flex;
+nav{
+    display:flex;
     justify-content: space-between;
     /* max-width: 1600px; */
     max-height: 92px;
@@ -18,47 +18,96 @@ header{
     border-bottom: 16px;
     align-items: center;
 }
-header ul{
+nav ul{
     list-style: none;
     display: flex;
     gap: 32px;
 }
-header a {
+nav a {
     text-decoration: none;
     color: #000;
 }
 
 
-header img {
+nav img {
     width: 139px;
     height: 60px;
-    margin: 16px auto auto 120px;
+    margin: 16px auto 16px 120px;
 }
-header button{
-    margin-left: 120px;
+nav button{
+    margin:24px 120px 24px auto;
     width: 164px;
     height: 44px;
     background-color: #30B868;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: 600;
     color: #FFFFFF;
-    padding:12px 16px;
+    padding:8px 16px 19px 16px;
     margin-right: 120px;
     /* border-color: #30B868; */
     box-shadow:none;
 }
 /* main section .................................... */
-/* .structure{
+.banner{
     max-width: 1600px;
     max-height: 674px;
     background: url("assets/hero-bg.png");
     background-repeat: no-repeat;
-}
-.structure{
-    /* margin: 0 auto; */
+    padding: 115.5px 120px 179.5px 120px;
+    border: solid 2px blue;
+    margin: 0 auto; 
     text-align: center;
-    padding:70px 120px 134px 120px;
 }
+/*  banner  start*/
+.banner{
+    border: 3px solid darkorange;
+}
+/*  banner-section  start*/
+.banner-section{
+    border: 3px solid blueviolet;
+}
+.banner-section-button-1{
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 5px;
+    max-width: 229px;
+    max-height: 35px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+}
+p .color-white{
+    line-height: 24px;
+    font-size: 18px;
+}
+/*  banner-section  end */
+/*  banner  end */
+
+/* main-section       start    */
+main{
+    border: 2px solid antiquewhite;
+}
+
+/* main-section-1     start    */
+main{
+    border: 2px solid yellow;
+}
+/* main-section-1     end      */
+
+/* main-section-2     start    */
+main{
+    border: 2px solid red;
+}
+/* main-section-2     end      */
+/* main-section       end      */
+
+.main-section-article-2 img{
+    background-color:#F95555 ;
+}
+
 .color-white{
     color: #FFFFFF;
 }
@@ -81,14 +130,7 @@ header button{
     padding: 12px 16px;
     font-size: 16px;
 }
-.border-radius {
-    border-radius: 100px;
-    max-width: 229px;
-    max-height: 35px;
-    padding: 8px 12px;
-    text-align: center;
-}
 .border-radius span{
     max-width: 183px;
     max-height: 19px;
-} */
+}
