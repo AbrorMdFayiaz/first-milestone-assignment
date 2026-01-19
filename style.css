@@ -1,13 +1,14 @@
 *{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
-  /* font-variation-settings:
-    "wdth" 100; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    padding: 0 120px 0 120px;
 }
 nav{
     display:flex;
@@ -48,7 +49,7 @@ nav button{
     /* border-color: #30B868; */
     box-shadow:none;
 }
-/* main section .................................... */
+
 .banner{
     max-width: 1600px;
     max-height: 674px;
@@ -79,35 +80,12 @@ nav button{
     font-weight: 500;
     font-size: 16px;
 }
-p .color-white{
+
+
+p ,.color-white{
     line-height: 24px;
     font-size: 18px;
 }
-/*  banner-section  end */
-/*  banner  end */
-
-/* main-section       start    */
-main{
-    border: 2px solid antiquewhite;
-}
-
-/* main-section-1     start    */
-main{
-    border: 2px solid yellow;
-}
-/* main-section-1     end      */
-
-/* main-section-2     start    */
-main{
-    border: 2px solid red;
-}
-/* main-section-2     end      */
-/* main-section       end      */
-
-.main-section-article-2 img{
-    background-color:#F95555 ;
-}
-
 .color-white{
     color: #FFFFFF;
 }
@@ -123,7 +101,7 @@ main{
 .background-color-green{
     background-color: #30B868;
 }
-.second button{
+/* .second button{
     border-radius: 5px;
     max-width: 251px;
     max-height: 52px;
@@ -133,4 +111,138 @@ main{
 .border-radius span{
     max-width: 183px;
     max-height: 19px;
+} */
+
+
+
+
+/* the pureest is starting. main section .................................... */
+#main-section-article-1{
+    /* width:1360px; */
+    height:153px;
+    text-align:center;
+    border: 2px solid green;
+}
+#main-section-article-1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 55px;
+    max-width: 1360px;
+    max-height: 116px;
+    margin: 0 auto 11.5px auto;
+}
+#main-section-article-1 p{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 20px;
+    color: #627382;
+}
+#main-section-article-2{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    border: 2px dotted purple;
+    justify-content: space-between;
+
+
+    
+}
+#main-section-article-2 div {
+    border: 2px solid yellow;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+    text-align: center;
+    justify-content: center;
+}
+#main-section-article-2 div section{
+    background-color:#F95555 ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 10px auto;
+}
+#main-section-article-2 div img {
+    width: 32px;
+    height: 32px;
+}
+#main-section-article-2 div h3 {
+    max-width: 271px;
+    max-height: 29px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 0 auto 16px auto;
+}
+#main-section-article-2 div p {
+    max-width: 274px;
+    max-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
+#main-section-2{
+    max-height: 600px;
+    display: flex;
+    gap:60px ;
+}
+#main-section-2-img{
+    width: 44%;
+    max-width: 600px;
+    max-height: 600px;
+
+}
+#main-section-2-artcle{
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+}
+#main-section-2-artcle h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:500 ;
+    color: #30B868;
+}
+#main-section-2-artcle h1{
+    font-size: 48px;
+    /* line-height: 20px; */
+    font-weight:700 ;
+    color: #001931;
+}
+#main-section-2-artcle-p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:400 ;
+    color: #627382;
+}
+#main-section-2-artcle-div{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#main-section-2-artcle-div article{
+    display: flex;
+    gap:6px;
+    align-items: center;
+
+}
+#main-section-2-artcle-div article img{
+    width: 16.25px;
+    height: 16.25px;
+
+}
+#main-section-2-artcle-div article p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:500 ;
+    color: #001931;
 }
