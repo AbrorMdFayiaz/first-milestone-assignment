@@ -443,3 +443,9 @@ footer div {
     border-top: 2px solid #5e5f60;
     padding-top: 30px;
 }
+/* Adding hover effect on all buttons */
+a:hover,button:hover{
+    cursor: pointer;
+    background-color:darkgoldenrod;
+    color: aqua;
+}
